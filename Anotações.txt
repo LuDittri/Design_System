@@ -1,0 +1,22 @@
+Design System: Uma convenção criada dentro de empresas, onde quando possuem projetos com a mesma linha visual ou semelhantes. Padronização de designs onde todos os componentes ou quase todos possuem uma mesma aparência.
+
+Radix colors e Tailwind colors, biblioteca de cores padronizadas
+worldvectorlogo, biblioteca de vetores de logo em SVG que são arquivos mais faceis de serem manipulados.
+
+Após criação da primeira página de um sistema, seja ele qual for, é necessário verificar dela o que é possível reaproveitar nas demais para padronizar, como cores, tamanhos de fontes, estilizações de formas, componentes das telas
+
+Pacotes que precisam ser instalados:
+- npm create vite@latest (Cria pasta para o projeto rodando pelo vite)
+    - abre aba para nomear pasta
+    - npm i (instala todas as dependências do vite, pois não instala sozinho)
+    - npm run dev (roda projeto no localhost)
+
+- npm install -D tailwindcss postcss autoprefixer (baixa os módulos do tailwind, postcss e autoprefixer)
+
+- npx sb init --builder @storybook/builder-vite --use-npm (baixa módulo do storybook com suporte para o vite pois roda mais rapido que webpack babel)
+    - recusar imigração para npm7
+    - npm run storybook (roda storybook no localhost)
+
+- npm install --save clsx (baixa módulo clsx)
+
+- npm install @radix-ui/react-slot

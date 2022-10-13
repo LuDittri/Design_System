@@ -1,6 +1,6 @@
-import { ReactNode } from 'react';
 import { Slot } from '@radix-ui/react-slot';
 import  { clsx }  from 'clsx';
+import { ReactNode } from 'react';
 
 export interface TextProps {
     size?: 'sm' | 'md' | 'lg';
@@ -21,6 +21,8 @@ export function Text({ size = 'md', children, asChild }: TextProps) {
                 'text-md': size == 'lg',
             }
         )}
-        > {children} </Comp>
+        > 
+        {children} 
+        </Comp>
     )
 }

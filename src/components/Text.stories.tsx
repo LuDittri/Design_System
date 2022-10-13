@@ -39,7 +39,7 @@ export const CustomComponent: StoryObj<TextProps> = {
             <p>testando</p>
         )
     },
-    argTypes: { //VERIFICAR POR QUE ESTÁ ERRADO 51:40 MIN
+    argTypes: {
         children: {
             table: {
                 disable: true,

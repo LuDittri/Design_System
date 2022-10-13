@@ -1,6 +1,6 @@
-import { ReactNode } from 'react';
 import { Slot } from '@radix-ui/react-slot';
 import  { clsx }  from 'clsx';
+import { ReactNode } from 'react';
 
 export interface HeadingProps {
     size?: 'sm' | 'md' | 'lg';
@@ -21,6 +21,8 @@ export function Heading({ size = 'md', children, asChild }: HeadingProps) {
                 'text-2xl': size == 'lg',
             }
         )}
-        > {children} </Comp>
+        > 
+        {children} 
+        </Comp>
     )
 }

@@ -19,4 +19,8 @@ Pacotes que precisam ser instalados:
 
 - npm install --save clsx (baixa módulo clsx)
 
-- npm install @radix-ui/react-slot
+- npm install @radix-ui/react-slot (Baixa módulo do radix para react)
+
+- npm i phosphor-react (Baixa módulo do phosphor-react para exportar icones)
+
+- npm install @radix-ui/react-checkbox (Baixa módulo do radix para checkbox)

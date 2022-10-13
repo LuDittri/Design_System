@@ -39,7 +39,7 @@ export const CustomComponent: StoryObj<HeadingProps> = {
             <h1>Heading is H1</h1>
         )
     },
-    argTypes: { //VERIFICAR POR QUE ESTÁ ERRADO 51:40 MIN
+    argTypes: { 
         children: {
             table: {
                 disable: true,
